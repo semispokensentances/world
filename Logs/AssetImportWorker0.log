@@ -1,0 +1,151 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nellis22/Desktop/world
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63409
+Successfully changed project path to: /Users/nellis22/Desktop/world
+/Users/nellis22/Desktop/world
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nellis22/Desktop/world/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-02 13:28:42.691 Unity[39331:4710315] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-06-02 13:28:42.691 Unity[39331:4710315] Metal devices available: 1
+2021-06-02 13:28:42.691 Unity[39331:4710315] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-06-02 13:28:42.691 Unity[39331:4710315] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56331
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001259 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.418 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.644 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2734 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 198.1 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3145.
+Total: 6.943240 ms (FindLiveObjects: 0.564458 ms CreateObjectMapping: 0.218365 ms MarkObjects: 3.963991 ms  DeleteObjects: 2.194604 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/room/Wall_Material.mat
+  artifactKey: Guid(2e9a17715a0336848ba7e7a967aad404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/room/Wall_Material.mat using Guid(2e9a17715a0336848ba7e7a967aad404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440fd3267bcc866474f781cc7f81c1dd') in 1.219304 seconds
+  Import took 1.226955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/room/Floor_Material.mat
+  artifactKey: Guid(0cbafce8f5bae884e8e6d41816a65dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/room/Floor_Material.mat using Guid(0cbafce8f5bae884e8e6d41816a65dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc9bfee45e1b428052fa6e44c29a01d') in 0.015407 seconds
+  Import took 0.024068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.520449 seconds.
+  path: Assets/Free SteelLadder Pack/Textures
+  artifactKey: Guid(2b5b1975bbd9b435abb5ccacbece6f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Textures using Guid(2b5b1975bbd9b435abb5ccacbece6f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07289ee608748bdb99c98f2e3d46490b') in 0.002975 seconds
+  Import took 0.018182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053796 seconds.
+  path: Assets/Free SteelLadder Pack/Textures/SteelLadder_A_Stainless.psd
+  artifactKey: Guid(416a9edafce46cc48a21002dc0c8b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Textures/SteelLadder_A_Stainless.psd using Guid(416a9edafce46cc48a21002dc0c8b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d65edca9657a7066d665aaa3f6b65c') in 2.139696 seconds
+  Import took 2.146526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Free SteelLadder Pack/Textures/SteelLadder_B_Stainless.psd
+  artifactKey: Guid(7c30cd8720a90cd44b0d63559bea7b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Textures/SteelLadder_B_Stainless.psd using Guid(7c30cd8720a90cd44b0d63559bea7b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3814d729b35a10d2c73dbf62299e37ba') in 0.014613 seconds
+  Import took 0.020312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.321209 seconds.
+  path: Assets/ExampleAssets/Shaders
+  artifactKey: Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders using Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee99ce21de84a8d2f4b588ea06901d12') in 0.001559 seconds
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.388023 seconds.
+  path: Assets/ExampleAssets/Textures
+  artifactKey: Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures using Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3235a99b511c546a5e1b6837967032c0') in 0.007696 seconds
+  Import took 0.020439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.286186 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Materials
+  artifactKey: Guid(860e018b067db43f28a4a997bd7a142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Materials using Guid(860e018b067db43f28a4a997bd7a142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d63e601a9cb95979ed174f5dcca3d5') in 0.002796 seconds
+  Import took 0.009731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Materials
+  artifactKey: Guid(860e018b067db43f28a4a997bd7a142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Materials using Guid(860e018b067db43f28a4a997bd7a142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d63e601a9cb95979ed174f5dcca3d5') in 0.001073 seconds
+  Import took 0.007228 seconds .
+
